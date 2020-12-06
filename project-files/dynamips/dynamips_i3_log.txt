@@ -1,0 +1,121 @@
+Jun 19 12:55:38.361 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 19 12:55:38.363 HYPERVISOR: Started on IP = localhost, TCP port = 50006.
+Jun 19 12:55:38.741 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 19 12:55:38.741 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips 
+Jun 19 12:55:38.741 GENERAL: working_dir=C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips
+Jun 19 12:55:38.742 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips\9cfa3939-4d8a-4343-875d-8c9b21646f66 
+Jun 19 12:55:38.742 GENERAL: working_dir=C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips\9cfa3939-4d8a-4343-875d-8c9b21646f66
+Jun 19 12:55:38.742 HYPERVISOR: exec_cmd: vm create R3 1 c2691 
+Jun 19 12:55:38.773 VM: VM R3 created.
+Jun 19 12:55:38.774 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Jun 19 12:55:38.775 HYPERVISOR: exec_cmd: c2691 get_mac_addr R3 
+Jun 19 12:55:38.775 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Jun 19 12:55:38.776 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Jun 19 12:55:38.779 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/hgals/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b.image 
+Jun 19 12:55:38.780 HYPERVISOR: exec_cmd: c2691 set_mac_addr R3 c001.4178.0000 
+Jun 19 12:55:38.780 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Jun 19 12:55:38.781 HYPERVISOR: exec_cmd: vm set_ram R3 192 
+Jun 19 12:55:38.781 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 12:55:38.782 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-16ESW 
+Jun 19 12:55:40.346 HYPERVISOR: exec_cmd: nio create_udp udp-2161891f-cf6a-4ad3-973a-6477910b4597 10006 127.0.0.1 10007 
+Jun 19 12:55:41.271 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-2161891f-cf6a-4ad3-973a-6477910b4597 
+Jun 19 12:55:41.272 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 12:55:41.772 HYPERVISOR: exec_cmd: nio create_udp udp-656dbe4e-108a-45d9-b920-2e9f3d13c661 10012 127.0.0.1 10013 
+Jun 19 12:55:41.775 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-656dbe4e-108a-45d9-b920-2e9f3d13c661 
+Jun 19 12:55:41.775 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 12:55:41.944 HYPERVISOR: exec_cmd: nio create_udp udp-c786bce8-bc7f-4490-894a-19e6acb1a530 10016 127.0.0.1 10017 
+Jun 19 12:55:41.948 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-c786bce8-bc7f-4490-894a-19e6acb1a530 
+Jun 19 12:55:41.949 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 13:07:21.319 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/hgals/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b.image 
+Jun 19 13:07:58.104 HYPERVISOR: exec_cmd: vm create Ghost 0 c2691 
+Jun 19 13:07:58.108 VM: VM Ghost created.
+Jun 19 13:07:58.110 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/hgals/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b.image 
+Jun 19 13:07:58.110 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 19 13:07:58.111 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips\c2691-entservicesk9-mz.124-13b.image-192.ghost' 
+Jun 19 13:07:58.111 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Jun 19 13:07:58.112 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 19 13:07:58.128 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 19 13:07:58.128 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 19 13:07:59.000 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 19 13:07:59.169 VM: VM Ghost shutdown.
+Jun 19 13:07:59.169 VM: VM Ghost destroyed.
+Jun 19 13:07:59.206 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 13:07:59.207 HYPERVISOR: exec_cmd: vm set_config R3 configs\i1_startup-config.cfg 
+Jun 19 13:07:59.207 HYPERVISOR: exec_cmd: vm start R3 
+Jun 19 15:45:00.166 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 15:45:00.166 HYPERVISOR: exec_cmd: vm stop R3 
+Jun 19 15:45:00.342 VM: VM R3 shutdown.
+Jun 19 15:45:00.345 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jun 19 15:45:08.946 HYPERVISOR: exec_cmd: vm create Ghost 0 c2691 
+Jun 19 15:45:08.949 VM: VM Ghost created.
+Jun 19 15:45:08.951 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/hgals/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b.image 
+Jun 19 15:45:08.951 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 19 15:45:08.952 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips\c2691-entservicesk9-mz.124-13b.image-192.ghost' 
+Jun 19 15:45:08.953 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Jun 19 15:45:08.954 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 19 15:45:08.955 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 19 15:45:08.955 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 19 15:45:09.234 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 19 15:45:09.398 VM: VM Ghost shutdown.
+Jun 19 15:45:09.398 VM: VM Ghost destroyed.
+Jun 19 15:45:09.424 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 15:45:09.425 HYPERVISOR: exec_cmd: vm set_config R3 configs\i1_startup-config.cfg 
+Jun 19 15:45:09.426 HYPERVISOR: exec_cmd: vm start R3 
+Jun 19 15:53:09.966 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jun 19 15:53:10.000 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jun 19 21:27:21.976 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:27:21.978 HYPERVISOR: exec_cmd: vm slot_disable_nio R3 1 0 
+Jun 19 21:27:21.996 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R3 1 0 
+Jun 19 21:27:22.000 HYPERVISOR: exec_cmd: nio delete udp-2161891f-cf6a-4ad3-973a-6477910b4597 
+Jun 19 21:27:30.359 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:28:34.796 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:28:34.797 HYPERVISOR: exec_cmd: vm stop R3 
+Jun 19 21:28:35.405 VM: VM R3 shutdown.
+Jun 19 21:28:35.407 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jun 19 21:28:41.480 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:28:41.480 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 1 0 
+Jun 19 21:28:41.482 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:28:41.488 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-4T 
+Jun 19 21:28:46.204 HYPERVISOR: exec_cmd: vm create Ghost 0 c2691 
+Jun 19 21:28:46.210 VM: VM Ghost created.
+Jun 19 21:28:46.220 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/hgals/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b.image 
+Jun 19 21:28:46.222 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 19 21:28:46.223 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips\c2691-entservicesk9-mz.124-13b.image-192.ghost' 
+Jun 19 21:28:46.224 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Jun 19 21:28:46.226 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 19 21:28:46.265 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 19 21:28:46.266 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 19 21:28:46.644 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 19 21:28:46.714 VM: VM Ghost shutdown.
+Jun 19 21:28:46.714 VM: VM Ghost destroyed.
+Jun 19 21:28:46.793 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:28:46.795 HYPERVISOR: exec_cmd: vm set_config R3 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Jun 19 21:28:46.796 HYPERVISOR: exec_cmd: vm start R3 
+Jun 19 21:31:20.567 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:31:20.568 HYPERVISOR: exec_cmd: vm stop R3 
+Jun 19 21:31:21.575 VM: VM R3 shutdown.
+Jun 19 21:31:21.669 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jun 19 21:31:34.263 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:31:34.264 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 1 0 
+Jun 19 21:31:34.266 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:31:34.267 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-1FE-TX 
+Jun 19 21:31:46.611 HYPERVISOR: exec_cmd: nio create_udp udp-1244d569-1884-44ee-96d1-6bf59566b800 10006 127.0.0.1 10007 
+Jun 19 21:31:46.631 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-1244d569-1884-44ee-96d1-6bf59566b800 
+Jun 19 21:31:46.632 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:31:53.358 HYPERVISOR: exec_cmd: vm create Ghost 0 c2691 
+Jun 19 21:31:53.364 VM: VM Ghost created.
+Jun 19 21:31:53.367 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/hgals/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b.image 
+Jun 19 21:31:53.369 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 19 21:31:53.370 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips\c2691-entservicesk9-mz.124-13b.image-192.ghost' 
+Jun 19 21:31:53.371 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Jun 19 21:31:53.372 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 19 21:31:53.374 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 19 21:31:53.374 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 19 21:31:53.897 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 19 21:31:54.072 VM: VM Ghost shutdown.
+Jun 19 21:31:54.072 VM: VM Ghost destroyed.
+Jun 19 21:31:54.105 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 19 21:31:54.107 HYPERVISOR: exec_cmd: vm set_config R3 configs\i1_startup-config.cfg configs\i1_private-config.cfg 
+Jun 19 21:31:54.107 HYPERVISOR: exec_cmd: vm start R3 
+Jun 19 23:33:56.659 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jun 19 23:33:56.685 HYPERVISOR: exec_cmd: vm extract_config R3 

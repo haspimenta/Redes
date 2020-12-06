@@ -1,0 +1,22 @@
+uBridge version 0.9.16 running with Npcap version 0.9983, based on libpcap version 1.9.1-PRE-GIT
+Hypervisor TCP control server started (IP localhost port 50219).
+UDP tunnel connecting from local port 10031 to IPv4 addresss 127.0.0.1 on port 10030
+UDP tunnel connecting from local port 10008 to IPv4 addresss 127.0.0.1 on port 10009
+Source NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-1 has started
+Destination NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-1 has started
+UDP tunnel connecting from local port 10033 to IPv4 addresss 127.0.0.1 on port 10032
+UDP tunnel connecting from local port 10005 to IPv4 addresss 127.0.0.1 on port 10004
+Source NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-2 has started
+Destination NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-2 has started
+UDP tunnel connecting from local port 10029 to IPv4 addresss 127.0.0.1 on port 10028
+UDP tunnel connecting from local port 10035 to IPv4 addresss 127.0.0.1 on port 10034
+Source NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-0 has started
+Destination NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-0 has started
+UDP tunnel connecting from local port 10029 to IPv4 addresss 127.0.0.1 on port 10028
+UDP tunnel connecting from local port 10035 to IPv4 addresss 127.0.0.1 on port 10034
+Source NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-0 has started
+Destination NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-0 has started
+UDP tunnel connecting from local port 10033 to IPv4 addresss 127.0.0.1 on port 10032
+UDP tunnel connecting from local port 10005 to IPv4 addresss 127.0.0.1 on port 10004
+Source NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-2 has started
+Destination NIO listener thread for VBOX-79679e60-7d91-47cd-af36-af34e0ac0f0d-2 has started

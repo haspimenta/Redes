@@ -1,0 +1,14 @@
+Jun 19 12:55:37.757 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 19 12:55:37.760 HYPERVISOR: Started on IP = localhost, TCP port = 50002.
+Jun 19 12:55:38.117 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 19 12:55:38.117 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips 
+Jun 19 12:55:38.118 GENERAL: working_dir=C:\Users\hgals\GNS3\projects\projetoRedes2_Hugo_18544\project-files\dynamips
+Jun 19 12:55:38.118 HYPERVISOR: exec_cmd: ethsw create SW2 
+Jun 19 12:55:40.076 HYPERVISOR: exec_cmd: nio create_udp udp-1dd87f54-6e0f-45ad-8cdc-13f7a58cc36d 10001 127.0.0.1 10000 
+Jun 19 12:55:40.078 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-1dd87f54-6e0f-45ad-8cdc-13f7a58cc36d 
+Jun 19 12:55:40.083 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-1dd87f54-6e0f-45ad-8cdc-13f7a58cc36d 1 
+Jun 19 12:55:41.690 HYPERVISOR: exec_cmd: nio create_udp udp-63b62de6-100e-4c6a-9d14-a27de6f45d53 10009 127.0.0.1 10008 
+Jun 19 12:55:41.691 HYPERVISOR: exec_cmd: ethsw add_nio SW2 udp-63b62de6-100e-4c6a-9d14-a27de6f45d53 
+Jun 19 12:55:41.704 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-63b62de6-100e-4c6a-9d14-a27de6f45d53 1 
+Jun 19 13:07:21.324 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-63b62de6-100e-4c6a-9d14-a27de6f45d53 1 
+Jun 19 13:07:21.442 HYPERVISOR: exec_cmd: ethsw set_access_port SW2 udp-1dd87f54-6e0f-45ad-8cdc-13f7a58cc36d 1 

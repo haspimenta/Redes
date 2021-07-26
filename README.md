@@ -4,7 +4,7 @@ Para informações completas e vista de imagens, consultar relatório no reposit
 
 Projeto redes de computadores
 
-Elaborado por:
+Resolvido por:
 Hugo Silva
 
 Índice
